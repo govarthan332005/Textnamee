@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*?*utm_
+
+# Block AI scrapers if you prefer (uncomment to enable)
+# User-agent: GPTBot
+# Disallow: /
+# User-agent: CCBot
+# Disallow: /
+
+Sitemap: https://growvest.app/sitemap.xml
+Host: https://growvest.app
